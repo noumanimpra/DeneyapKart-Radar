@@ -1,3 +1,8 @@
+//Potansiyel hatalar
+// yazı tipi hatası - çözüm ==> (L-26)araçlar yazı tipi kısmı ile kodun   orcFont = loadFont("ArialMT-48.vlw"); kısmında .vlw dosyasıyla eşitlenmeli
+//port hatası çözüm ==> (L24) myPort = new Serial(this,"COM13",115200); kısmında COM13 yazan bölüm kendi kodunuzla değiştirilmeli.
+
+
 import processing.serial.*; // imports library for serial communication
 import java.awt.event.KeyEvent; // imports library for reading the data from the serial port
 import java.io.IOException;
